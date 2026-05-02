@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews | Foodies</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .review-card { background: var(--card-bg); padding: 30px; border-radius: 20px; text-align: center; }
+        .stars { color: gold; font-size: 1.5rem; margin-bottom: 15px; }
+        .reviewer-name { color: var(--primary-color); font-weight: 600; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Foodies.</a>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="deals.html">Deals</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="reviews.html" class="active">Reviews</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>What Our Customers Say</h1>
+        <p style="color: var(--text-muted); margin-top: 10px;">Real feedback from real foodies.</p>
+    </div>
+
+    <section class="grid-container">
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"The Loaded Pepperoni Pizza is out of this world! The cheese pull is incredible and the crust is perfectly baked."</p>
+            <div class="reviewer-name">- Ahmed Ali</div>
+        </div>
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"I ordered the Mega Party Combo for my friends and everyone loved it. The Zinger burgers were so crispy!"</p>
+            <div class="reviewer-name">- Sara Khan</div>
+        </div>
+        <div class="review-card">
+            <div class="stars">★★★★☆</div>
+            <p>"Great food and fast delivery. The Gourmet Club Sandwich is my daily go-to lunch now. Highly recommended."</p>
+            <div class="reviewer-name">- Bilal Tariq</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Foodies. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

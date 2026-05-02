@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deals | Foodies</title>
+    <meta name="description" content="Exclusive food combos and deals at Foodies.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Foodies.</a>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="deals.html" class="active">Deals</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Exclusive Deals & Combos</h1>
+        <p style="color: var(--text-muted); margin-top: 10px;">Get the most value out of your cravings!</p>
+    </div>
+
+    <section class="grid-container">
+        <!-- Deal 1 -->
+        <div class="card">
+            <img src="images/combo.png" alt="Mega Family Deal" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Mega Party Combo</h3>
+                <p class="card-desc">1 Large Pepperoni Pizza + 2 Premium Beef Burgers + 1 Large Golden Fries + 1.5L Cold Drink.</p>
+                <div class="card-price">
+                    Rs. 2500
+                    <button class="add-btn" onclick="addToCart('Mega Party Combo', 2500)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deal 2 -->
+        <div class="card">
+            <img src="images/burger_deal.png" alt="Burger Duo Deal" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Classic Burger Duo</h3>
+                <p class="card-desc">2 Premium Beef Burgers + 2 Regular Fries + 2 Cold Drinks.</p>
+                <div class="card-price">
+                    Rs. 1800
+                    <button class="add-btn" onclick="addToCart('Classic Burger Duo', 1800)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Deal 3 -->
+        <div class="card">
+            <img src="images/sandwich.png" alt="Snack Deal" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Lite Snack Deal</h3>
+                <p class="card-desc">1 Gourmet Club Sandwich + Regular Fries + 1 Cold Drink.</p>
+                <div class="card-price">
+                    Rs. 900
+                    <button class="add-btn" onclick="addToCart('Lite Snack Deal', 900)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Foodies. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

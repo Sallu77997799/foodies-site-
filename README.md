@@ -1,45 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodies | Premium Fast Food</title>
-    <meta name="description" content="Welcome to Foodies. Best burgers, pizzas, and sandwiches in town.">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <a href="index.html" class="logo">Foodies.</a>
-        <nav>
-            <ul id="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="deals.html">Deals</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="reviews.html">Reviews</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+# Foodies - Premium Fast Food Website
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Cravings Satisfied, <br><span>Every Single Bite.</span></h1>
-            <p>Experience the most delicious and premium fast food in town. From juicy burgers to loaded pizzas and gourmet sandwiches, we've got you covered.</p>
-            <a href="menu.html" class="btn">Explore Menu</a>
-        </div>
-        <div class="hero-image">
-            <img src="C:\Users\lenovo\.gemini\antigravity\brain\32ed42e2-8163-421c-ad29-ddea292d41ee\foodies_hero_1777640930077.png" alt="Delicious Fast Food Feast">
-        </div>
-    </section>
+A modern, responsive multi-page website for a fast-food restaurant.
 
-    <footer>
-        <p>&copy; 2026 Foodies. All rights reserved.</p>
-        <p>Premium Fast Food - Prices from PKR 500 to 2500</p>
-    </footer>
+## Features
+- Fully responsive design
+- Interactive menu with cart functionality
+- Beautiful hero sections and food imagery
+- Contact form and location integration
+- Review and FAQ sections
 
-    <script src="script.js"></script>
-</body>
-</html>
+## Deployment
+This project is ready for deployment on **Vercel** or **Netlify**. Simply connect your GitHub repository and it will be live in seconds.

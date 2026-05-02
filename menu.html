@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Foodies</title>
+    <meta name="description" content="Explore our delicious menu of burgers, pizzas, and sandwiches.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Foodies.</a>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="deals.html">Deals</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Our Premium Menu</h1>
+        <p style="color: var(--text-muted); margin-top: 10px;">Select from our mouth-watering collection</p>
+    </div>
+
+    <!-- BURGERS (7 items) -->
+    <div style="text-align: center; margin-bottom: 30px;">
+        <h2 style="color: var(--primary-color); font-family: 'Playfair Display', serif; font-size: 2.5rem;">Burgers</h2>
+    </div>
+    <section class="grid-container" id="menu-grid-burgers" style="padding-top: 0;">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Premium Beef Burger" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Premium Beef Burger</h3>
+                <p class="card-desc">Double beef patty with melting cheese, fresh lettuce, and our secret sauce in a soft brioche bun.</p>
+                <div class="card-price">Rs. 850<button class="add-btn" onclick="addToCart('Premium Beef Burger', 850)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/zinger.png" alt="Zinger Chicken Burger" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Zinger Chicken Burger</h3>
+                <p class="card-desc">Crispy fried chicken breast, spicy mayo, and fresh iceberg lettuce on a toasted sesame bun.</p>
+                <div class="card-price">Rs. 750<button class="add-btn" onclick="addToCart('Zinger Chicken Burger', 750)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Double Cheese Smash" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Double Cheese Smash</h3>
+                <p class="card-desc">Two smashed beef patties with caramelized onions and double cheddar cheese.</p>
+                <div class="card-price">Rs. 950<button class="add-btn" onclick="addToCart('Double Cheese Smash', 950)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=800" alt="BBQ Bacon Burger" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">BBQ Bacon Burger</h3>
+                <p class="card-desc">Smoky BBQ sauce, crispy beef bacon, onion rings, and cheddar on a brioche bun.</p>
+                <div class="card-price">Rs. 1050<button class="add-btn" onclick="addToCart('BBQ Bacon Burger', 1050)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/3616956/pexels-photo-3616956.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Spicy Jalapeno Burger" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Spicy Jalapeno Burger</h3>
+                <p class="card-desc">Beef patty packed with spicy jalapenos, pepper jack cheese, and sriracha mayo.</p>
+                <div class="card-price">Rs. 800<button class="add-btn" onclick="addToCart('Spicy Jalapeno Burger', 800)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Crispy Fish Burger" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Crispy Fish Burger</h3>
+                <p class="card-desc">Golden fried fish fillet with tangy tartar sauce and fresh lettuce.</p>
+                <div class="card-price">Rs. 900<button class="add-btn" onclick="addToCart('Crispy Fish Burger', 900)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Grilled Mushroom Burger" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Grilled Mushroom Burger</h3>
+                <p class="card-desc">Juicy beef patty topped with sautéed wild mushrooms and melted swiss cheese.</p>
+                <div class="card-price">Rs. 850<button class="add-btn" onclick="addToCart('Grilled Mushroom Burger', 850)">Add to Cart</button></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIZZAS (7 items) -->
+    <div style="text-align: center; margin: 50px 0 30px;">
+        <h2 style="color: var(--primary-color); font-family: 'Playfair Display', serif; font-size: 2.5rem;">Pizzas</h2>
+    </div>
+    <section class="grid-container" id="menu-grid-pizzas" style="padding-top: 0;">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Loaded Pepperoni Pizza" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Loaded Pepperoni Pizza</h3>
+                <p class="card-desc">Hot, freshly baked pizza loaded with premium pepperoni, pulling mozzarella cheese and fresh basil.</p>
+                <div class="card-price">Rs. 1500<button class="add-btn" onclick="addToCart('Loaded Pepperoni Pizza', 1500)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Spicy Chicken Fajita" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Spicy Chicken Fajita</h3>
+                <p class="card-desc">Spicy marinated chicken, bell peppers, onions, and loaded with cheese on our signature crust.</p>
+                <div class="card-price">Rs. 1400<button class="add-btn" onclick="addToCart('Spicy Chicken Fajita', 1400)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Veggie Supreme" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Veggie Supreme</h3>
+                <p class="card-desc">A vegetarian delight with mushrooms, black olives, sweet corn, fresh tomatoes, and green peppers.</p>
+                <div class="card-price">Rs. 1300<button class="add-btn" onclick="addToCart('Veggie Supreme', 1300)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=800" alt="BBQ Chicken Tikka" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">BBQ Chicken Tikka</h3>
+                <p class="card-desc">Desi-style chicken tikka chunks drizzled with BBQ sauce and green chilies.</p>
+                <div class="card-price">Rs. 1450<button class="add-btn" onclick="addToCart('BBQ Chicken Tikka', 1450)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Four Cheese Margherita" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Four Cheese Margherita</h3>
+                <p class="card-desc">A classic blend of Mozzarella, Cheddar, Parmesan, and Feta cheese.</p>
+                <div class="card-price">Rs. 1350<button class="add-btn" onclick="addToCart('Four Cheese Margherita', 1350)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1049620/pexels-photo-1049620.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Meat Lover's Delight" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Meat Lover's Delight</h3>
+                <p class="card-desc">Loaded with pepperoni, sausages, smoked beef, and chicken chunks.</p>
+                <div class="card-price">Rs. 1600<button class="add-btn" onclick="addToCart('Meat Lover\'s Delight', 1600)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Hawaiian Pineapple" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Hawaiian Pineapple</h3>
+                <p class="card-desc">Sweet and savory combination of juicy pineapples and smoked chicken slices.</p>
+                <div class="card-price">Rs. 1300<button class="add-btn" onclick="addToCart('Hawaiian Pineapple', 1300)">Add to Cart</button></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SANDWICHES (5 items) -->
+    <div style="text-align: center; margin: 50px 0 30px;">
+        <h2 style="color: var(--primary-color); font-family: 'Playfair Display', serif; font-size: 2.5rem;">Sandwiches</h2>
+    </div>
+    <section class="grid-container" id="menu-grid-sandwiches" style="padding-top: 0;">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Gourmet Club Sandwich" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Gourmet Club Sandwich</h3>
+                <p class="card-desc">Grilled chicken, crispy bacon, fresh veggies, and rich mayo on perfectly toasted artisanal bread.</p>
+                <div class="card-price">Rs. 600<button class="add-btn" onclick="addToCart('Gourmet Club Sandwich', 600)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Grilled Chicken Panini" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Grilled Chicken Panini</h3>
+                <p class="card-desc">Warm pressed panini filled with pesto, grilled chicken strips, and melted mozzarella.</p>
+                <div class="card-price">Rs. 700<button class="add-btn" onclick="addToCart('Grilled Chicken Panini', 700)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1753052/pexels-photo-1753052.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Egg & Cheese Delight" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Egg & Cheese Delight</h3>
+                <p class="card-desc">A perfect breakfast/brunch option with fluffy eggs, premium cheese, and a hint of black pepper.</p>
+                <div class="card-price">Rs. 500<button class="add-btn" onclick="addToCart('Egg & Cheese Delight', 500)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/sandwich.png" alt="Roasted Beef Sandwich" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Roasted Beef Sandwich</h3>
+                <p class="card-desc">Thinly sliced roast beef with caramelized onions and mustard sauce on rye bread.</p>
+                <div class="card-price">Rs. 800<button class="add-btn" onclick="addToCart('Roasted Beef Sandwich', 800)">Add to Cart</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/357573/pexels-photo-357573.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Spicy Tuna Melt" class="card-img">
+            <div class="card-content">
+                <h3 class="card-title">Spicy Tuna Melt</h3>
+                <p class="card-desc">Fresh tuna salad mixed with spicy mayo, topped with melted cheddar cheese.</p>
+                <div class="card-price">Rs. 750<button class="add-btn" onclick="addToCart('Spicy Tuna Melt', 750)">Add to Cart</button></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Foodies. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
